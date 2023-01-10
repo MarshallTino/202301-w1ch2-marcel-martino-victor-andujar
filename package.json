@@ -1,0 +1,26 @@
+{
+  "name": "202301-week1-ch2-marcel-martino-victor-andujar",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.js",
+  "scripts": {
+    "prebuild:dev": "rimraf dist",
+    "prebuild": "rimraf dist",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarshallTino/202301-week1-ch2-marcel-martino-victor-andujar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarshallTino/202301-week1-ch2-marcel-martino-victor-andujar/issues"
+  },
+  "homepage": "https://github.com/MarshallTino/202301-week1-ch2-marcel-martino-victor-andujar#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^3.0.2"
+  }
+}
